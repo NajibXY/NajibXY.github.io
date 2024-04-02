@@ -1,0 +1,20 @@
+{
+  "name": "najibxy",
+  "version": "1.0.0",
+  "description": "portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NajibXY/NajibXY.github.io.git"
+  },
+  "author": "Najib EL KHADIR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NajibXY/NajibXY.github.io/issues"
+  },
+  "homepage": "https://github.com/NajibXY/NajibXY.github.io#readme"
+}
