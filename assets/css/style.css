@@ -157,7 +157,19 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
+video#bg-video {
+  background: url(../images/poster.jpg) no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  overflow: hidden;
+}
 
 
 
