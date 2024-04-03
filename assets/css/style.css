@@ -1570,8 +1570,39 @@ textarea.form-input::-webkit-resizer { display: none; }
 /**
  * responsive larger than 768px screen
  */
+@media (max-width: 767px) {
+    #take-your-time-resized-mobile {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      z-index: 9999; /* Add a higher z-index value */
+      max-width: 100%;
+    }
+  
+    #take-your-time-resized-image {
+      display : none;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 283px) {
+  .navbar-list {
+    margin-left: -50px;
+  }
+}
 
 @media (min-width: 768px) {
+
+  #take-your-time-resized-mobile {
+    display: none;
+  }
+
+  #take-your-time-resized-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999; /* Add a higher z-index value */
+    max-width: 100%;
+  }
 
   /**
    * REUSED STYLE
