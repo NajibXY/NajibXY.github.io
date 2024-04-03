@@ -162,9 +162,9 @@ document.getElementById('bgToggle').addEventListener('click', function() {
   var video = document.getElementById('bg-video');
   if (video.paused) {
       video.play();
-      this.textContent = 'Pause Background';
+      this.textContent = 'Pause Theme';
   } else {
       video.pause();
-      this.textContent = 'Unpause Background';
+      this.textContent = 'Unpause Theme';
   }
 });
