@@ -1251,6 +1251,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   #RESPONSIVE
 \*-----------------------------------*/
 
+@media (max-width: 350px) {
+  #bgToggle { 
+    display: none;
+  }
+}
 /**
  * responsive larger than 450px screen
  */
