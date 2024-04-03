@@ -157,3 +157,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+document.getElementById('bgToggle').addEventListener('click', function() {
+  var video = document.getElementById('bg-video');
+  if (video.paused) {
+      video.play();
+      this.textContent = 'Pause Background';
+  } else {
+      video.pause();
+      this.textContent = 'Unpause Background';
+  }
+});

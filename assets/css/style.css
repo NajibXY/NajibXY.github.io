@@ -366,6 +366,16 @@ main {
   border-radius: 8px;
 }
 
+.bg-button {
+  color: var(--bg-gradient-onyx);
+  background: var(--white-1);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
