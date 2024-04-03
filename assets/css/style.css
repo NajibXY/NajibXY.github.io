@@ -1587,6 +1587,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     #take-your-time-resized-image {
       display : none;
     }
+
+    #take-your-time-resized-image2 {
+      display : none;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 283px) {
@@ -1605,6 +1609,14 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 9999; /* Add a higher z-index value */
+    max-width: 100%;
+  }
+
+  #take-your-time-resized-image2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     z-index: 9999; /* Add a higher z-index value */
     max-width: 100%;
   }
