@@ -1956,4 +1956,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+  /**
+    * Hide Blog
+    */
+  .blog_things {
+    display : none;
+  }
 }
