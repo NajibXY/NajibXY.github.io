@@ -15,6 +15,7 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+
 :root {
 
   /**
@@ -1962,4 +1963,5 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog_things {
     display : none;
   }
+
 }
